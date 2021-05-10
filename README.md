@@ -2,16 +2,16 @@
 
 Projeto criado com base nos estudos do curso JSExpert do Erick Wendel
 
-- Acesse o [home](./pages/home/index.html) para acessar a home page
-- Acesse o [room](./pages/room/index.html) uma room específica
+- Acesse o [home](public/pages/home/index.html) para acessar a home page
+- Acesse o [room](public/pages/room/index.html) uma room específica
 
 ## Home Page
 
-![home page](./prints/home.png)
+![home page](public/prints/home.png)
 
 ## Room
 
-![room](./prints/room.png)
+![room](public/prints/room.png)
 
 ### Créditos
 
