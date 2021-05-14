@@ -1,5 +1,11 @@
 .idea
 node_modules
 public/node_modules
+public/.git
+public/.gitignore
 server/node_modules
+server/.git
+server/.gitignore
 peer-server/node_modules
+peer-server/.git
+peer-server/.gitignore

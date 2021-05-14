@@ -43,7 +43,7 @@ class PeerBuilder {
   _prepareCallEvent(call) {
     call.on('stream', stream => this.onPeerStreamReceived(call, stream))
     call.on('error', error => this.onCallError(call, error))
-    call.on('close', _ => this.onCallError(call))
+    call.on('close', _ => this.onCallClose(call))
     this.onCallReceived(call)
   }
 

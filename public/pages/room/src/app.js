@@ -6,14 +6,15 @@ const onload = () => {
 
   // const recorderBtn = document.getElementById('record')
   // recorderBtn.addEventListener('click', recordClick(recorderBtn))
-  const socketUrl = 'http://localhost:3000'
+  const socketUrl = 'https://vcserver2021.herokuapp.com'
   const socketBuilder = new SocketBuilder({ socketUrl })
 
   const peerConfig = Object.values({
     id: undefined,
     config: {
-      port: 9000,
-      host: 'localhost',
+      //port: 9000,
+      host: 'fierce-journey-43856.herokuapp.com',
+      secure: true,
       path: '/'
     }
   })
